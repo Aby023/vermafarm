@@ -1,0 +1,165 @@
+body, html {
+    min-height: 100%;
+}
+[class ^= "col-"]{
+    border: solid 1px #aaa;
+    padding: 0;
+    margin: 0;
+  }
+
+/* TOP NAV */
+#nav {
+    padding-top: 20px;
+    background-color: #edd3c1;
+}
+
+#verma {
+    font-family: "Calibri Light";
+    /* font-family: 'Quicksand', sans-serif; */
+    text-decoration: none;
+    color:#422c26;
+    font-size: 20px;
+    font-weight:bolder;
+    padding-left: 20px;
+}
+a {
+    font-family: "Calibri Light";
+    text-decoration: none;
+    color:#a68c7c;
+    font-size: 15px;
+    padding-left: 20px;
+    font-weight:bold;
+}
+
+a:hover {
+    text-decoration: none;
+    color:#CEA498;
+}
+
+
+
+
+/* MAIN 1 */
+
+#main1 {
+    padding-top: 150px;
+    background-image: url("../img/homepage-bg.png");
+    height: 968px;
+    background-color: #cccccc; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#text1 {
+    font-family: "Cooper Black";
+    color:#473733;
+    font-size: 35px;
+    padding-left: 60px;
+    padding-top: 100px;
+}
+
+#text2 {
+    font-family: "Calibri Light";
+    color:#a4927e;
+    font-size: 18px;
+    font-weight: bolder;
+    padding-left: 60px;
+}
+
+#btn1 {
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+#btnshop {
+    color: white;
+    background-color:#f7924e ;
+    border-color: #f7924e;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 15px;
+    padding-bottom:15px;
+    border-radius: 5px;
+    box-shadow: gray;
+}
+
+
+/* MAIN 2 */
+.main2 {
+    background-color: #fcf5ef;
+}
+
+#text3 {
+    font-family: "Cooper Black";
+    color:#473733;
+    font-size: 30px;
+    padding-left: 590px;
+}
+
+#text4 {
+    font-family: "Calibri Light";
+    color:#a4927e;
+    font-size: 20px;
+    padding-left: 510px;
+    padding-top: 10px;
+}
+
+#cell1 {
+    padding: 10px;
+    margin-right: 30px;
+    margin-left: 100px;
+}
+
+#cell2 {
+    padding: 10px;
+    margin-right: 30px;
+}
+
+#cell3 {
+    padding: 10px;
+    margin-right: 30px;
+}
+
+
+/* MAIN 3 */
+#logo-orange {
+    padding-left: 675px;
+    height:70px;
+}
+
+#text5 {
+    font-family: "Calibri Light";
+    color:#a4927e;
+    font-size: 20px;
+    text-align: center;
+}
+
+#parent {
+    position: relative;
+}
+
+#circle {
+    display: block;
+    padding-top: 50px;
+    width: 350px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#weed {
+    width: 450px;
+    position:absolute;
+    top: 40px;
+    left: 350px;
+    object-fit: cover;
+    object-position: top left;
+}
+
+#gummies {
+    width: 320px;
+    position:absolute;
+    top: 50px;
+    left: 450px;
+}

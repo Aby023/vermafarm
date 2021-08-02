@@ -1,0 +1,279 @@
+body, html {
+    min-height: 100%;
+}
+[class ^= "col-"]{
+    border: solid 1px #aaa;
+    padding: 0;
+    margin: 0;
+  }
+
+/* TOP NAV */
+#nav {
+    padding: 20px;
+    background-color: #faf3ed;
+}
+
+#verma {
+    font-family: "Calibri Light";
+    /* font-family: 'Quicksand', sans-serif; */
+    text-decoration: none;
+    color:#422c26;
+    font-size: 20px;
+    font-weight:bolder;
+    padding-left: 20px;
+}
+.top {
+    font-family: "Calibri Light";
+    text-decoration: none;
+    color:#a68c7c;
+    font-size: 15px;
+    padding-left: 20px;
+    font-weight:bold;
+    
+}
+
+
+.top:hover {
+    text-decoration: none;
+    color:#CEA498;
+}
+
+/* MAIN1 */
+#main1 {
+    background-color: #faf3ed;
+    position: relative;
+    
+}
+
+#rightimg {
+    /* margin-top: -20px; */
+    width: 150px;
+    position: absolute;
+    left: 1200px;
+}
+
+#leftimg {
+    padding-top: 150px;
+    width: 150px;
+    position: absolute;
+    
+}
+#text3 {
+    font-family: "Cooper Black";
+    color:#473733;
+    font-size: 30px;
+    text-align:  center;
+}
+
+#text4 {
+    font-family: "Calibri Light";
+    color:#a4927e;
+    font-size: 20px;
+    text-align:  center;
+    padding-top: 10px;
+}
+
+/* Box */
+#box {
+    padding-left: 80px;
+    position: absolute;
+}
+
+#cell1{
+    width: 425px;
+    height: 252px;
+    margin-left: 70px;
+    margin-right: 15px;
+    display: block;
+    height: auto;
+    padding: 0px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    font-family: "Calibri Light";
+    font-weight: bolder;
+    font-size: 20px;
+    color:#473733;
+    text-align: center;
+    
+}
+
+#imgc1 {
+    padding-left: 20px;
+    width: 225px;
+}
+
+
+#cell2{
+    width: 425px;
+    height: 252px;
+    margin-left: 70px;
+    margin-right: 15px;
+    display: block;
+    height: auto;
+    padding: 0px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    font-family: "Calibri Light";
+    font-weight: bolder;
+    font-size: 20px;
+    color:#473733;
+    text-align: center;
+}
+
+#imgc2 {
+    padding-left: 20px;
+    width: 225px;
+}
+
+#cell3{
+    width: 425px;
+    height: 252px;
+    margin-left: 70px;
+    margin-right: 15px;
+    display: block;
+    height: auto;
+    padding: 0px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    font-family: "Calibri Light";
+    font-weight: bolder;
+    font-size: 20px;
+    color:#473733;
+    text-align: center;
+    position: absolute;
+    top: 230px;
+}
+
+#imgc3 {
+    padding-left: 20px;
+    width: 225px;
+}
+
+#cell4{
+    width: 425px;
+    height: 252px;
+    margin-left: 70px;
+    margin-right: 15px;
+    display: block;
+    height: auto;
+    padding: 0px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    font-family: "Calibri Light";
+    font-weight: bolder;
+    font-size: 20px;
+    color:#473733;
+    text-align: center;
+    position: absolute;
+    top: 230px;
+    left: 590px;
+}
+
+#imgc4 {
+    padding-left: 20px;
+    width: 225px;
+}
+
+#btn1 {
+    padding-left: 480px;
+    padding-top: 600px;
+    padding-bottom: 50px;
+}
+
+#btnshop {
+    color: white;
+    background-color:#f7924e ;
+    border-color: #f7924e;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 15px;
+    padding-bottom:15px;
+    border-radius: 5px;
+    box-shadow: gray;
+}
+
+
+/* MAIN2 */
+
+.main2 {
+    background-color: #edd3c2;
+    padding-bottom: 20px;
+}
+
+#logo-gray {
+    padding-left: 575px;
+    height:100px;
+    padding-top: 20px;
+}
+
+#txtcbd {
+    font-family: "Cooper Black";
+    color:#473733;
+    font-size: 30px;
+    float: right;
+    padding-top: 30px;
+    padding-right:150px ;
+}
+
+#arrow {
+    float: right;
+    padding-left: 30px;
+    height: 50px;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #3b562b;
+    padding-top: 50px;
+}
+
+.down {
+    font-family: "Calibri Light";
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-weight:bold;
+}
+
+.down:hover {
+    font-family: "Calibri Light";
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+
+    font-weight:bold;
+}
+
+#verma2 {
+    font-family: "Calibri Light";
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+    font-weight:bolder;
+    padding-top: 100px;
+    padding-left: 530px;
+}
+
+
+#txtlast {
+    background-color: #3b562b;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-family: "Calibri Light";
+    color:#6f8860;
+    font-size: 20px;
+    text-align: center;
+}
